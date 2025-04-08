@@ -23,7 +23,7 @@ function detail(kode) {
             item.forEach ( (cuaca) => {
 
                 document.getElementById("list-cuaca").innerHTML +=
-                `<li> ${ cuaca.weather_desc } <li>'
+                `<li>${ cuaca.weather_desc } <li>'
             })
           
             
@@ -32,4 +32,3 @@ function detail(kode) {
         })
 
     } )
-}
